@@ -9,7 +9,7 @@ const DUMMY_DATA = [
     id: "a1",
     title: "Car Insurance",
     amount: 294.23,
-    date: new Date(2022, 2, 14),
+    date: new Date(2022, 3, 14),
   },
   {
     id: "b2",
@@ -17,8 +17,14 @@ const DUMMY_DATA = [
     amount: 10.23,
     date: new Date(2023, 2, 12),
   },
-  { id: "c3", title: "New Desk", amount: 100.23, date: new Date(2021, 2, 18) },
-  { id: "d4", title: "Grocery", amount: 50.11, date: new Date(2020, 2, 16) },
+  { id: "c3", title: "New Desk", amount: 100.23, date: new Date(2021, 5, 18) },
+  {
+    id: "e5",
+    title: "New kitchen",
+    amount: 50.23,
+    date: new Date(2021, 6, 18),
+  },
+  { id: "d4", title: "Grocery", amount: 50.11, date: new Date(2020, 6, 16) },
 ];
 
 const App = () => {
